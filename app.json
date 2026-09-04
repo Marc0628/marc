@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "FindBlueteeth Tool",
+    "slug": "findblueteeth-tool",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": false,
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.findblueteeth.tool",
+      "infoPlist": {
+        "NSBluetoothAlwaysUsageDescription": "需要使用蓝牙来扫描、连接并追踪附近的蓝牙设备，通过信号强度估算距离并在雷达上显示。",
+        "NSBluetoothPeripheralUsageDescription": "需要蓝牙外设权限以维持与已连接设备之间的稳定通信，实时读取信号强度。"
+      }
+    },
+    "android": {
+      "package": "com.findblueteeth.tool",
+      "permissions": [
+        "android.permission.BLUETOOTH",
+        "android.permission.BLUETOOTH_ADMIN",
+        "android.permission.BLUETOOTH_SCAN",
+        "android.permission.BLUETOOTH_CONNECT",
+        "android.permission.ACCESS_FINE_LOCATION"
+      ]
+    }
+  }
+}

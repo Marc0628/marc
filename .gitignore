@@ -1,0 +1,41 @@
+# 依赖
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# 原生工程由 `npx expo prebuild` 生成，不纳入版本控制（CNG 模式）
+ios/
+android/
+
+# 本地环境与密钥
+.env
+.env*.local
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# 调试
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# 测试
+coverage/
+
+# 系统
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
